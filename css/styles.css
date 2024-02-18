@@ -73,11 +73,14 @@ img{
 
 /* =========== Page Header styles =========== */
 
+.header-page{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-page-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .page-navigation{
@@ -95,6 +98,7 @@ img{
     text-transform: uppercase;
     margin-right: 76px;
 }
+
 .header-part-logo{
     color: #2e2f42;
 }
@@ -114,6 +118,7 @@ img{
     padding-bottom: 24px;
     display: block;
 }
+
 .nav-link:hover, 
 .nav-link:focus{
     color: #404bbf;
@@ -144,12 +149,10 @@ img{
 
 .hero{
     background-color: #2e2f42;
-}
-
-.hero-section-container{
     padding-top: 188px;
     padding-bottom: 188px;
 }
+
 
 .main-title{
     text-align: center;
@@ -159,6 +162,8 @@ img{
     color: #fff;
     max-width: 496px;
     margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .order-servise-btn{
     display: block;
@@ -270,12 +275,11 @@ img{
 }
 .our-portfolio-list-item{
     width: calc((100% - 48px) / 3);
-    padding-bottom: 32px;
     border: 1px solid #e7e9fc;
 }
 
-.our-portfolio-list-img{
-    margin-bottom: 32px;
+.our-portfolio-list-item-container{
+    padding: 32px 16px;
 }
 
 .our-portfolio-list-title{
@@ -284,14 +288,13 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-left: 16px;
+    margin-bottom: 8px;
 }
 
 .our-portfolio-list-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 16px;
 }
 
 /* =========== Footer Page styles =========== */
