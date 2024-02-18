@@ -279,8 +279,8 @@ img{
 
 .our-portfolio-list-item-container{
     padding: 32px 16px;
-    border-top: none;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .our-portfolio-list-title{
